@@ -1,0 +1,12 @@
+{
+  "name": "marketing-theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.21",
+    "@theme-ui/presets": "^0.2.44",
+    "theme-ui": "^0.2.44",
+    "isolated-theme-ui": "1.0.1"
+  }
+}

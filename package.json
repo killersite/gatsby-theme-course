@@ -1,0 +1,13 @@
+{
+  "name": "gatsby-theme-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ChristopherBiscardi/advanced-gatsby-themes-workshop-code.git",
+  "author": "Ben Schochet <bentzion.schochet@hbo.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "www"
+  ]
+}
