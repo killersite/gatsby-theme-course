@@ -15,10 +15,10 @@
     "gatsby-plugin-mdx": "^1.0.52",
     "gatsby-plugin-sharp": "^2.2.32",
     "gatsby-source-filesystem": "^2.1.33",
-    "gatsby-source-wordpress": "^3.1.43",
     "gatsby-transformer-sharp": "^2.2.23",
-    "marketing-theme": "^1.0.0",
     "gatsby-theme-shopify": "^1.0.0",
+    "gatsby-theme-product-blog": "^1.0.0",
+    "marketing-theme": "^1.0.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "theme-ui": "^0.2.44"

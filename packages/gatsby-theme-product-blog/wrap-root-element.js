@@ -1,5 +1,5 @@
 import React from "react";
-import { MyThemeContext2 } from "./src/context";
+import { MyThemeContext } from "./src/context";
 
 import theme from "./src/theme";
 import * as H from "./src/components/headings";
@@ -11,12 +11,12 @@ const components = {
 };
 
 export default ({ element }) => (
-  <MyThemeContext2.Provider
+  <MyThemeContext.Provider
     value={{
       theme,
       components
     }}
   >
     {element}
-  </MyThemeContext2.Provider>
+  </MyThemeContext.Provider>
 );

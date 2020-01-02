@@ -1,4 +1,3 @@
-
 module.exports = options => ({
   plugins: [
     `gatsby-plugin-sharp`,
@@ -36,6 +35,6 @@ module.exports = options => ({
         includeCollections: ["shop"],
         ...options.sourceShopify
       }
-    },
+    }
   ]
 });

@@ -6,6 +6,10 @@
   "author": "Ben Schochet <bentzion.schochet@hbo.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start": "yarn workspace www develop",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
   "workspaces": [
     "packages/*",
     "www"

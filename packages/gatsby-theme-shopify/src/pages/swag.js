@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { useContext } from 'react';
-import { MyThemeContext, jsx } from "../context";
+import { MyThemeContext2, jsx } from "../context";
 import { graphql } from "gatsby";
 import { Global } from "@emotion/core";
 import Header from "../components/header";
@@ -11,7 +11,8 @@ import * as H from "../components/headings";
 import * as Text from "../components/text";
 
 const client = Client.buildClient({
-  domain: "corgico-dev.myshopify.com",
+  // domain: "corgico-dev.myshopify.com",
+  domain: process.env.GATSBY_SHOPIFY_DOMAIN,
   storefrontAccessToken: process.env.GATSBY_SHOPIFY_ACCESS_TOKEN
 });
 
@@ -28,7 +29,7 @@ async function buyCorgis(shopifyId) {
 }
 
 export default ({ data, ...props }) => {
-  const { theme } = useContext(MyThemeContext);
+  const { theme } = useContext(MyThemeContext2);
 
   return (
     <div>
